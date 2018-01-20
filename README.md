@@ -30,4 +30,4 @@ $ npm run dev
 ```
 
 ## Fontionnalités
-Les fonctionnalités mise en place et les difficultées rencontrées sont expliqueées dans leurs parties ([Nodejs](https://github.com/MarineDurand/Nodejs_Vuejs/tree/master/backend), [Vuejs](https://github.com/MarineDurand/Nodejs_Vuejs/tree/master/frontend)
+Les fonctionnalités mise en place et les difficultées rencontrées sont expliqueées dans leurs parties ([Nodejs](https://github.com/MarineDurand/Nodejs_Vuejs/tree/master/backend), [Vuejs](https://github.com/MarineDurand/Nodejs_Vuejs/tree/master/frontend))
