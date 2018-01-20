@@ -12,3 +12,6 @@ Chaque fonctionnalié est mise dans un module.
 #### Gestion de l’initialisation de la TODO-list
 Pour la gestion de l'initialisation de la TODO-list il est utilisé le middleware d’express.
 La TODO-list s'initialise à la création de la session et est détruite à la desctruction de la session.
+
+#### Ajout d'une TODO
+Une route POST est crée pour l'ajout d'une TODO. Elle gère la soumission d'un formulaire avec le middleware body-parser.
