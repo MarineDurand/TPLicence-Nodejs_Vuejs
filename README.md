@@ -8,10 +8,26 @@ Récupérer le projet
 $ git clone https://github.com/MarineDurand/Nodejs_Vuejs.git
 ```
 #### Vuejs
-Installer npm (gestionnaire de paquets) :
+Se placer dans le dossier frontend et installer npm (gestionnaire de paquets) :
 ```
 $ npm install 
 ```
 #### Nodejs
-Rien n'est a installé.
+Rien n'est à installer.
 
+## Lancer le projet 
+
+##### Nodejs
+Se placer dans le dossier backend et utiliser la commande suivante :
+```
+$ node index.js
+```
+
+#### Vuejs
+Se placer dans le dossier frontend et utiliser la commande suivante :
+```
+$ npm run dev
+```
+
+## Fontionnalités
+Les fonctionnalités mise en place sont expliquer dans les README.md de leurs parties.
