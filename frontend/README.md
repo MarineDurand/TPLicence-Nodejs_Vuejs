@@ -49,7 +49,7 @@ Route pour modifier une todo dont l'identifiant est passé en paramètre dans l'
 
 #### detailsTodo
 ```
-http://localhost:8080/#//details/:id
+http://localhost:8080/#/details/:id
 ```
 La route qui affiche plus en détail une TODO, son identifiant est passé en paramètre dans l'URL.
 
