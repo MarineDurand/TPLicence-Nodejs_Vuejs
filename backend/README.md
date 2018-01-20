@@ -48,3 +48,7 @@ Une route GET pour récupérer une seule TODO. L'identifiant de la TODO demandé
 http://localhost:3000/todo/edit/:id
 ```
 Une route POST pour modifier le nom ou le détail d'une TODO. L'identifiant de la TODO est passé en paramètre dans l'URL.
+
+
+## Difficultées rencontrées
+La plus grande difficultée était de faire la liaison entre le Nodejs et le Vuejs. Pour cela nous avons utilisé le package cors.
