@@ -1,6 +1,7 @@
 # Vuejs
 Partie frontend. 
 Utilise la librairie Bootstrap.
+Utilise la bibliothèque axios pour les requêtes HTTP.
 
 ## Lancement
 ``` 
@@ -37,6 +38,11 @@ Route pour modifier une todo dont l'identifiant est passé en paramètre dans l'
 #### details
 La route qui affiche plus en détail une TODO, son identifiant est passé en paramètre dans l'URL.
 
-## Fonctionnalités
+## Fonctionnalités faîtes
+
+#### Récupération de la TODO-list
+#### Modification d'une TODO
+#### Suppression d'une TODO
+#### Récupération d'une TODO
 
 
