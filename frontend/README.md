@@ -30,19 +30,36 @@ Contient le composant todo.
 ## Routes
 
 #### home
+```
+http://localhost:8080/#/
+```
 Cette route est le point d’entrée des autres actions. Elle contient la TODO-list avec les liens de modification, suppression, details et le bouton pour ajouter une nouvelle TODO.
-#### ajouter
+
+#### addTodo
+```
+http://localhost:8080/#/ajouter
+```
 Il s'agit de la route pour ajouter une nouvelle TODO.
-#### modifier
+
+#### editTodo
+```
+http://localhost:8080/#/modifier/:id
+```
 Route pour modifier une todo dont l'identifiant est passé en paramètre dans l'URL.
-#### details
+
+#### detailsTodo
+```
+http://localhost:8080/#//details/:id
+```
 La route qui affiche plus en détail une TODO, son identifiant est passé en paramètre dans l'URL.
 
-## Fonctionnalités faîtes
+## Fonctionnalités 
+1. Récupération de la TODO-list
+2. Modification d'une TODO
+3. Suppression d'une TODO
+4. Récupération d'une TODO
 
-#### Récupération de la TODO-list
-#### Modification d'une TODO
-#### Suppression d'une TODO
-#### Récupération d'une TODO
-
+## Difficultées rencontrées
+Comme pour la partie backend la plus grande difficultée était de faire la liaison entre le Nodejs et le Vuejs.
+Nous avons eu des problèmes de sessions, pour résoudre ce problème nous avons mis `withcredentials` à true.
 
