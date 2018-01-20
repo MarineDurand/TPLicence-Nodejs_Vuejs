@@ -2,7 +2,11 @@
 
 ## Installation
 
-Installer npm :
+Récupérer le projet
 ```
-npm install --save
+$ git clone https://github.com/MarineDurand/Nodejs_Vuejs.git
+```
+Installer npm (gestionnaire de paquets) :
+```
+npm install 
 ```
