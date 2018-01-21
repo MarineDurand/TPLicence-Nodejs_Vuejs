@@ -1,1 +1,35 @@
-# TP Final Nodejs/ Vuejs
+# TP TODO-list (Hugo Ferrant - Marine Durand)
+Projet TODO-list développé en Nodejs pour la partie backend et en Vuejs pour la partie frontend.
+
+Une TODO possède un nom et un détail.
+
+## Installation
+
+Récupérer le projet
+```
+$ git clone https://github.com/MarineDurand/Nodejs_Vuejs.git
+```
+#### Vuejs
+Se placer dans le dossier frontend et installer npm (gestionnaire de paquets) :
+```
+$ npm install 
+```
+#### Nodejs
+Rien n'est à installer.
+
+## Lancer le projet 
+
+##### Nodejs
+Se placer dans le dossier backend et utiliser la commande suivante :
+```
+$ node index.js
+```
+
+#### Vuejs
+Se placer dans le dossier frontend et utiliser la commande suivante :
+```
+$ npm run dev
+```
+
+## Fontionnalités
+Les fonctionnalités mise en place et les difficultées rencontrées sont expliqueées dans leurs parties ([Nodejs](https://github.com/MarineDurand/Nodejs_Vuejs/tree/master/backend), [Vuejs](https://github.com/MarineDurand/Nodejs_Vuejs/tree/master/frontend))

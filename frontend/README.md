@@ -1,30 +1,65 @@
 # Vuejs
+Partie frontend. 
+Utilise la librairie Bootstrap.
+Utilise la bibliothèque axios pour les requêtes HTTP.
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+## Lancement
+``` 
+$ npm run dev
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Composants
+
+#### detailsTodo 
+Contient une TODO et ses informations.
+#### formTodo 
+Contient un formulaire pour l'ajout d'une TODO ou la modification.
+#### home 
+Première page contient le composant myContent.
+#### myContent 
+Contient les composants myRightContent et todoList.
+#### myHeader 
+Contient le header de l'application (le même pour toute les routes).
+#### myRightContent 
+Contient le bouton "Créer une tâche".
+#### todo 
+Contient une TODO avec ses liens (modification, suppression, details).
+#### todoList
+Contient le composant todo.
+
+## Routes
+
+#### home
+```
+http://localhost:8080/#/
+```
+Cette route est le point d’entrée des autres actions. Elle contient la TODO-list avec les liens de modification, suppression, details et le bouton pour ajouter une nouvelle TODO.
+
+#### addTodo
+```
+http://localhost:8080/#/ajouter
+```
+Il s'agit de la route pour ajouter une nouvelle TODO.
+
+#### editTodo
+```
+http://localhost:8080/#/modifier/:id
+```
+Route pour modifier une todo dont l'identifiant est passé en paramètre dans l'URL.
+
+#### detailsTodo
+```
+http://localhost:8080/#/details/:id
+```
+La route qui affiche plus en détail une TODO, son identifiant est passé en paramètre dans l'URL.
+
+## Fonctionnalités 
+1. Récupération de la TODO-list
+2. Modification d'une TODO
+3. Suppression d'une TODO
+4. Récupération d'une TODO
+
+## Difficultées rencontrées
+Comme pour la partie backend la plus grande difficultée était de faire la liaison entre le Nodejs et le Vuejs.
+Nous avons eu des problèmes de sessions, pour résoudre ce problème nous avons mis `withcredentials` à true.
+
