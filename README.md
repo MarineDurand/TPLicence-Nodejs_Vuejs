@@ -1,7 +1,7 @@
 # TP TODO-list (Hugo Ferrant - Marine Durand)
 Projet TODO-list développé en Nodejs pour la partie backend et en Vuejs pour la partie frontend.
 
-Une TODO possède un nom et un détail.
+Une TODO possède un nom (obligatoire) et un détail.
 
 ## Installation
 
