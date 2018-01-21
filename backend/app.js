@@ -12,7 +12,7 @@ var addTodo = function (req, res) {
         req.session.todoList.push({name: req.body.todo, details: req.body.details});
         res.send(true);
     } else {
-        res.send(false)
+        res.send(false);
     }
 };
 
@@ -55,8 +55,8 @@ var getTodoListPagination = function (req, res) {
     }
 
     res.send({
-            todoList: list
-        })
+        todoList: list
+    })
 }
 /*Edit todo*/
 var editTodo = function (req, res) {

@@ -48,6 +48,7 @@
         }, {withCredentials: true})
           .then((response) => {
             console.log(response)
+            this.$router.push('/')
           })
           .catch(function (error) {
             console.log(error)
@@ -60,6 +61,7 @@
         }, {withCredentials: true})
           .then((response) => {
             console.log(response)
+            this.$router.push('/')
           })
           .catch(function (error) {
             console.log(error)
